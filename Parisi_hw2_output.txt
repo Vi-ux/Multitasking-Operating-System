@@ -1,0 +1,2243 @@
+
+Program successfully loaded.
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      0      0      0      0      0      0      0      0      0      
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+0           0      66000  1      0      0      0      0      0      0      0      
+10          0      0      0      0      0      0      0      0      0      0      
+20          0      0      0      0      0      0      0      0      0      0      
+30          0      0      0      0      0      0      0      0      0      0      
+40          0      0      0      0      0      0      0      0      0      0      
+50          0      0      0      0      0      0      0      0      0      0      
+60          0      0      0      0      0      0      0      0      0      0      
+70          0      0      0      0      0      0      0      0      0      0      
+80          0      0      0      0      0      0      0      0      0      0      
+90          0      0      0      0      0      0      0      0      0      0      
+100         0      0      0      0      0      0      0      0      0      0      
+110         0      0      0      0      0      0      0      0      0      0      
+120         0      0      0      0      0      0      0      0      0      0      
+130         0      0      0      0      0      0      0      0      0      0      
+140         0      0      0      0      0      0      0      0      0      0      
+150         0      0      0      0      0      0      0      0      0      0      
+160         0      0      0      0      0      0      0      0      0      0      
+170         0      0      0      0      0      0      0      0      0      0      
+180         0      0      0      0      0      0      0      0      0      0      
+190         0      0      0      0      0      0      0      0      0      0      
+200         0      0      0      0      0      0      0      0      0      0      
+210         0      0      0      0      0      0      0      0      0      0      
+220         0      0      0      0      0      0      0      0      0      0      
+230         0      0      0      0      0      0      0      0      0      0      
+240         0      0      0      0      0      0      0      0      0      0      
+Clock:0
+PSR:0
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:1
+
+Interrupt that was entered: 1
+
+Run program interrupt has been encountered. Please enter the name of the program to run (name of the machine language program): src/p1
+Program successfully loaded.
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      0      0      0      0      0      0      0      0      0      
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+0           0      66000  1      51260  100    126000 4      91000  11     60000  
+10          29     51711  51360  3      51460  -1     53713  21260  1      31314  
+20          53713  21260  1      81250  19     51260  100    126000 5      0      
+30          0      0      0      0      0      0      0      0      0      0      
+40          0      0      0      0      0      0      0      0      0      0      
+50          0      0      0      0      0      0      0      0      0      0      
+60          0      0      0      0      0      0      0      0      0      0      
+70          0      0      0      0      0      0      0      0      0      0      
+80          0      0      0      0      0      0      0      0      0      0      
+90          0      0      0      0      0      0      0      0      0      0      
+100         0      0      0      0      0      0      0      0      0      0      
+110         0      0      0      0      0      0      0      0      0      0      
+120         0      0      0      0      0      0      0      0      0      0      
+130         0      0      0      0      0      0      0      0      0      0      
+140         0      0      0      0      0      0      0      0      0      0      
+150         0      0      0      0      0      0      0      0      0      0      
+160         0      0      0      0      0      0      0      0      0      0      
+170         0      0      0      0      0      0      0      0      0      0      
+180         0      0      0      0      0      0      0      0      0      0      
+190         0      0      0      0      0      0      0      0      0      0      
+200         0      0      0      0      0      0      0      0      0      0      
+210         0      0      0      0      0      0      0      0      0      0      
+220         0      0      0      0      0      0      0      0      0      0      
+230         0      0      0      0      0      0      0      0      0      0      
+240         0      0      0      0      0      0      0      0      0      0      
+Clock:0
+PSR:0
+
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = -1, PID = 1, State = 1, Reason for Waiting = 0, PC = 3, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7000, PID = 1, State = 1, Reason for Waiting = 0, PC = 3, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      0      0      0      0      0      0      0      0      0      
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        -1     3980   0      0      0      0      0      0      0      0      
+3030        0      0      0      0      0      0      0      0      0      0      
+3040        0      0      0      0      0      0      0      0      0      0      
+3050        0      0      0      0      0      0      0      0      0      0      
+3060        0      0      0      0      0      0      0      0      0      0      
+3070        0      0      0      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        0      0      0      0      0      0      0      0      0      0      
+3130        0      0      0      0      0      0      0      0      0      0      
+3140        0      0      0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:0
+PSR:0
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = -1, PID = 1, State = 1, Reason for Waiting = 0, PC = 3, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+*CPU HAS BEGUN OPERATING*
+
+Mem_Alloc system call encountered. The final values of GPR0, GPR1, and GPR2 are: GPR0 = 0  GPR1 = 3020  GPR2 = 100
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   88     3      -1     0      0      3032   3009   20     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     0      0      0      0      0      0      0      0      
+3040        0      0      0      0      0      0      0      0      0      0      
+3050        0      0      0      0      0      0      0      0      0      0      
+3060        0      0      0      0      0      0      0      0      0      0      
+3070        0      0      0      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     3880   0      0      0      0      0      0      0      0      
+3130        0      0      0      0      0      0      0      0      0      0      
+3140        0      0      0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:200
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:1
+
+Interrupt that was entered: 1
+
+Run program interrupt has been encountered. Please enter the name of the program to run (name of the machine language program): src/p2
+Program successfully loaded.
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   88     3      -1     0      0      3032   3009   20     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+0           0      66000  1      51260  100    126000 4      91000  11     60000  
+10          29     51711  51360  3      51460  -1     53713  21260  1      31314  
+20          53713  21260  1      81250  19     51260  100    126000 5      0      
+30          51160  8      106000 7001   106000 7002   106000 7003   106000 7004   
+40          115000 0      115000 0      115000 0      115000 0      21160  1      
+50          81150  32     0      0      0      0      0      0      0      0      
+60          0      0      0      0      0      0      0      0      0      0      
+70          0      0      0      0      0      0      0      0      0      0      
+80          0      0      0      0      0      0      0      0      0      0      
+90          0      0      0      0      0      0      0      0      0      0      
+100         0      0      0      0      0      0      0      0      0      0      
+110         0      0      0      0      0      0      0      0      0      0      
+120         0      0      0      0      0      0      0      0      0      0      
+130         0      0      0      0      0      0      0      0      0      0      
+140         0      0      0      0      0      0      0      0      0      0      
+150         0      0      0      0      0      0      0      0      0      0      
+160         0      0      0      0      0      0      0      0      0      0      
+170         0      0      0      0      0      0      0      0      0      0      
+180         0      0      0      0      0      0      0      0      0      0      
+190         0      0      0      0      0      0      0      0      0      0      
+200         0      0      0      0      0      0      0      0      0      0      
+210         0      0      0      0      0      0      0      0      0      0      
+220         0      0      0      0      0      0      0      0      0      0      
+230         0      0      0      0      0      0      0      0      0      0      
+240         0      0      0      0      0      0      0      0      0      0      
+Clock:200
+PSR:2
+
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = -1, PID = 2, State = 1, Reason for Waiting = 0, PC = 30, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7050, PID = 1, State = 1, Reason for Waiting = 0, PC = 20, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 88   GPR3: 3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3032
+
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 2, State = 1, Reason for Waiting = 0, PC = 30, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   88     3      -1     0      0      3032   3009   20     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     0      0      0      0      0      0      0      0      
+3040        0      0      0      0      0      0      0      0      0      0      
+3050        0      0      0      0      0      0      0      0      0      0      
+3060        0      0      0      0      0      0      0      0      0      0      
+3070        0      0      0      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     3880   0      0      0      0      0      0      0      0      
+3130        -1     3870   0      0      0      0      0      0      0      0      
+3140        0      0      0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:200
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 2, State = 1, Reason for Waiting = 0, PC = 30, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = -1, PID = 1, State = 1, Reason for Waiting = 0, PC = 20, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 88   GPR3: 3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3032
+
+
+*CPU HAS BEGUN OPERATING*
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   74     -3     -1     0      0      3046   3009   23     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     0      0      0      0      
+3050        0      0      0      0      0      0      0      0      0      0      
+3060        0      0      0      0      0      0      0      0      0      0      
+3070        0      0      0      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     3880   0      0      0      0      0      0      0      0      
+3130        -1     3870   0      0      0      0      0      0      0      0      
+3140        0      0      0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:400
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:0
+
+Interrupt that was entered: 0
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7025, PID = 2, State = 1, Reason for Waiting = 0, PC = 30, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7000, PID = 1, State = 1, Reason for Waiting = 0, PC = 23, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 74   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3046
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   74     -3     -1     0      0      3046   3009   23     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     0      0      0      0      
+3050        0      0      0      0      0      0      0      0      0      0      
+3060        0      0      0      0      0      0      0      0      0      0      
+3070        0      0      0      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     3880   0      0      0      0      0      0      0      0      
+3130        -1     3870   0      0      0      0      0      0      0      0      
+3140        0      0      0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:400
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7000, PID = 1, State = 1, Reason for Waiting = 0, PC = 23, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 74   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3046
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = -1, PID = 2, State = 1, Reason for Waiting = 0, PC = 30, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+*CPU HAS BEGUN OPERATING*
+Pushing the value: 7001 to the RUNNING PCB's stack.
+Pushing the value: 7002 to the RUNNING PCB's stack.
+Pushing the value: 7003 to the RUNNING PCB's stack.
+Pushing the value: 7004 to the RUNNING PCB's stack.
+Pushing the value: 7004 from the RUNNING PCB's stack.
+Pushing the value: 7003 from the RUNNING PCB's stack.
+Pushing the value: 7002 from the RUNNING PCB's stack.
+Pushing the value: 7001 from the RUNNING PCB's stack.
+Pushing the value: 7001 to the RUNNING PCB's stack.
+Pushing the value: 7002 to the RUNNING PCB's stack.
+Pushing the value: 7003 to the RUNNING PCB's stack.
+Pushing the value: 7004 to the RUNNING PCB's stack.
+Pushing the value: 7004 from the RUNNING PCB's stack.
+Pushing the value: 7003 from the RUNNING PCB's stack.
+Pushing the value: 7002 from the RUNNING PCB's stack.
+Pushing the value: 7001 from the RUNNING PCB's stack.
+Pushing the value: 7001 to the RUNNING PCB's stack.
+Pushing the value: 7002 to the RUNNING PCB's stack.
+Pushing the value: 7003 to the RUNNING PCB's stack.
+Pushing the value: 7004 to the RUNNING PCB's stack.
+Pushing the value: 7004 from the RUNNING PCB's stack.
+Pushing the value: 7003 from the RUNNING PCB's stack.
+Pushing the value: 7002 from the RUNNING PCB's stack.
+Pushing the value: 7001 from the RUNNING PCB's stack.
+Pushing the value: 7001 to the RUNNING PCB's stack.
+Pushing the value: 7002 to the RUNNING PCB's stack.
+Pushing the value: 7003 to the RUNNING PCB's stack.
+Pushing the value: 7004 to the RUNNING PCB's stack.
+Pushing the value: 7004 from the RUNNING PCB's stack.
+Pushing the value: 7003 from the RUNNING PCB's stack.
+Pushing the value: 7002 from the RUNNING PCB's stack.
+Pushing the value: 7001 from the RUNNING PCB's stack.
+Pushing the value: 7001 to the RUNNING PCB's stack.
+Pushing the value: 7002 to the RUNNING PCB's stack.
+Pushing the value: 7003 to the RUNNING PCB's stack.
+Pushing the value: 7004 to the RUNNING PCB's stack.
+Pushing the value: 7004 from the RUNNING PCB's stack.
+Pushing the value: 7003 from the RUNNING PCB's stack.
+Pushing the value: 7002 from the RUNNING PCB's stack.
+Pushing the value: 7001 from the RUNNING PCB's stack.
+Pushing the value: 7001 to the RUNNING PCB's stack.
+Pushing the value: 7002 to the RUNNING PCB's stack.
+Pushing the value: 7003 to the RUNNING PCB's stack.
+Pushing the value: 7004 to the RUNNING PCB's stack.
+Pushing the value: 7004 from the RUNNING PCB's stack.
+Pushing the value: 7003 from the RUNNING PCB's stack.
+Pushing the value: 7002 from the RUNNING PCB's stack.
+Pushing the value: 7001 from the RUNNING PCB's stack.
+Pushing the value: 7001 to the RUNNING PCB's stack.
+Pushing the value: 7002 to the RUNNING PCB's stack.
+Pushing the value: 7003 to the RUNNING PCB's stack.
+Pushing the value: 7004 to the RUNNING PCB's stack.
+Pushing the value: 7004 from the RUNNING PCB's stack.
+Pushing the value: 7003 from the RUNNING PCB's stack.
+Pushing the value: 7002 from the RUNNING PCB's stack.
+Pushing the value: 7001 from the RUNNING PCB's stack.
+Pushing the value: 7001 to the RUNNING PCB's stack.
+Pushing the value: 7002 to the RUNNING PCB's stack.
+Pushing the value: 7003 to the RUNNING PCB's stack.
+Pushing the value: 7004 to the RUNNING PCB's stack.
+Pushing the value: 7004 from the RUNNING PCB's stack.
+Pushing the value: 7003 from the RUNNING PCB's stack.
+Pushing the value: 7002 from the RUNNING PCB's stack.
+Pushing the value: 7001 from the RUNNING PCB's stack.
+CPU Halt encountered
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      0      0      0      0      0      0      0      3119   53     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     0      0      0      0      
+3050        0      0      0      0      0      0      0      0      0      0      
+3060        0      0      0      0      0      0      0      0      0      0      
+3070        0      0      0      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        7001   7002   7003   7004   0      0      0      0      0      0      
+3130        -1     3870   0      0      0      0      0      0      0      0      
+3140        0      0      0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:598
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+HALT REACHED, end of program.Ptr is : 3120
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:1
+
+Interrupt that was entered: 1
+
+Run program interrupt has been encountered. Please enter the name of the program to run (name of the machine language program): src/p3
+Program successfully loaded.
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      0      0      0      0      0      0      0      3119   53     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+0           0      66000  1      51260  100    126000 4      91000  11     60000  
+10          29     51711  51360  3      51460  -1     53713  21260  1      31314  
+20          53713  21260  1      81250  19     51260  100    126000 5      0      
+30          51160  8      106000 7001   106000 7002   106000 7003   106000 7004   
+40          115000 0      115000 0      115000 0      115000 0      21160  1      
+50          81150  32     0      51260  10     51560  5      126000 4      51611  
+60          51711  126000 8      53711  21560  1      81550  61     51560  5      
+70          51136  126000 9      21560  1      81550  70     21660  5      51116  
+80          126000 5      0      0      0      0      0      0      0      0      
+90          0      0      0      0      0      0      0      0      0      0      
+100         0      0      0      0      0      0      0      0      0      0      
+110         0      0      0      0      0      0      0      0      0      0      
+120         0      0      0      0      0      0      0      0      0      0      
+130         0      0      0      0      0      0      0      0      0      0      
+140         0      0      0      0      0      0      0      0      0      0      
+150         0      0      0      0      0      0      0      0      0      0      
+160         0      0      0      0      0      0      0      0      0      0      
+170         0      0      0      0      0      0      0      0      0      0      
+180         0      0      0      0      0      0      0      0      0      0      
+190         0      0      0      0      0      0      0      0      0      0      
+200         0      0      0      0      0      0      0      0      0      0      
+210         0      0      0      0      0      0      0      0      0      0      
+220         0      0      0      0      0      0      0      0      0      0      
+230         0      0      0      0      0      0      0      0      0      0      
+240         0      0      0      0      0      0      0      0      0      0      
+Clock:598
+PSR:2
+
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = -1, PID = 3, State = 1, Reason for Waiting = 0, PC = 53, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7050, PID = 1, State = 1, Reason for Waiting = 0, PC = 23, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 74   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3046
+
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 0, PC = 53, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      0      0      0      0      0      0      0      3119   53     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     0      0      0      0      
+3050        0      0      0      0      0      0      0      0      0      0      
+3060        0      0      0      0      0      0      0      0      0      0      
+3070        0      0      0      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        -1     3870   0      0      0      0      0      0      0      0      
+3140        0      0      0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:598
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 0, PC = 53, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = -1, PID = 1, State = 1, Reason for Waiting = 0, PC = 23, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 74   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3046
+
+
+*CPU HAS BEGUN OPERATING*
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   61     -3     -1     0      0      3059   3009   20     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      0      
+3060        0      0      0      0      0      0      0      0      0      0      
+3070        0      0      0      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        -1     3870   0      0      0      0      0      0      0      0      
+3140        0      0      0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:803
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:0
+
+Interrupt that was entered: 0
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7025, PID = 3, State = 1, Reason for Waiting = 0, PC = 53, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7000, PID = 1, State = 1, Reason for Waiting = 0, PC = 20, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 61   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3059
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   61     -3     -1     0      0      3059   3009   20     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      0      
+3060        0      0      0      0      0      0      0      0      0      0      
+3070        0      0      0      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        -1     3870   0      0      0      0      0      0      0      0      
+3140        0      0      0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:803
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7000, PID = 1, State = 1, Reason for Waiting = 0, PC = 20, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 61   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3059
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = -1, PID = 3, State = 1, Reason for Waiting = 0, PC = 53, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+*CPU HAS BEGUN OPERATING*
+
+Mem_Alloc system call encountered. The final values of GPR0, GPR1, and GPR2 are: GPR0 = 0  GPR1 = 3130  GPR2 = 10
+
+Input operation required, leaving CPU for input interrupt.
+
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3130   10     0      0      5      3130   3130   3119   63     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      0      
+3060        0      0      0      0      0      0      0      0      0      0      
+3070        0      0      0      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        -1     3870   0      0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:823
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+INPUT INTERRUPT DETECTED, please enter interrupt for PID: 
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:3
+
+Interrupt that was entered: 3
+ISR designed for input completion has begun running, please specify the PID of the process that the input is being completed for: 
+Please enter a character to store: 
+The character H was successfully INPUTTED.
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7050, PID = 1, State = 1, Reason for Waiting = 0, PC = 20, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 61   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3059
+
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 72   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 5   GPR6: 3130   GPR7: 3130
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3130   10     0      0      5      3130   3130   3119   63     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      0      
+3060        0      0      0      0      0      0      0      0      0      0      
+3070        0      0      0      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        -1     3870   0      0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:823
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 72   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 5   GPR6: 3130   GPR7: 3130
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = -1, PID = 1, State = 1, Reason for Waiting = 0, PC = 20, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 61   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3059
+
+
+*CPU HAS BEGUN OPERATING*
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   47     3      -1     0      0      3073   3009   23     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        -1     3870   0      0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1023
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:0
+
+Interrupt that was entered: 0
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7025, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 72   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 5   GPR6: 3130   GPR7: 3130
+
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7000, PID = 1, State = 1, Reason for Waiting = 0, PC = 23, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 47   GPR3: 3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3073
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   47     3      -1     0      0      3073   3009   23     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        -1     3870   0      0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1023
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7000, PID = 1, State = 1, Reason for Waiting = 0, PC = 23, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 47   GPR3: 3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3073
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = -1, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 72   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 5   GPR6: 3130   GPR7: 3130
+
+
+*CPU HAS BEGUN OPERATING*
+
+Input operation required, leaving CPU for input interrupt.
+
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      72     10     0      0      4      3130   3131   3119   63     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     3870   0      0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1032
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+INPUT INTERRUPT DETECTED, please enter interrupt for PID: 
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:3
+
+Interrupt that was entered: 3
+ISR designed for input completion has begun running, please specify the PID of the process that the input is being completed for: 
+Please enter a character to store: 
+The character e was successfully INPUTTED.
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7050, PID = 1, State = 1, Reason for Waiting = 0, PC = 23, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 47   GPR3: 3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3073
+
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 101   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 4   GPR6: 3130   GPR7: 3131
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      72     10     0      0      4      3130   3131   3119   63     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      0      0      0      0      0      0      0      
+3080        0      0      0      0      0      0      0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     3870   0      0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1032
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 101   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 4   GPR6: 3130   GPR7: 3131
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = -1, PID = 1, State = 1, Reason for Waiting = 0, PC = 23, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 47   GPR3: 3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3073
+
+
+*CPU HAS BEGUN OPERATING*
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   34     3      -1     0      0      3086   3009   20     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     3870   0      0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1237
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:0
+
+Interrupt that was entered: 0
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7025, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 101   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 4   GPR6: 3130   GPR7: 3131
+
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7000, PID = 1, State = 1, Reason for Waiting = 0, PC = 20, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 34   GPR3: 3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3086
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   34     3      -1     0      0      3086   3009   20     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     3870   0      0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1237
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7000, PID = 1, State = 1, Reason for Waiting = 0, PC = 20, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 34   GPR3: 3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3086
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = -1, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 101   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 4   GPR6: 3130   GPR7: 3131
+
+
+*CPU HAS BEGUN OPERATING*
+
+Input operation required, leaving CPU for input interrupt.
+
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      101    10     0      0      3      3130   3132   3119   63     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    0      0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1246
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+INPUT INTERRUPT DETECTED, please enter interrupt for PID: 
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:3
+
+Interrupt that was entered: 3
+ISR designed for input completion has begun running, please specify the PID of the process that the input is being completed for: 
+Please enter a character to store: 
+The character l was successfully INPUTTED.
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7050, PID = 1, State = 1, Reason for Waiting = 0, PC = 20, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 34   GPR3: 3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3086
+
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 108   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 3   GPR6: 3130   GPR7: 3132
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      101    10     0      0      3      3130   3132   3119   63     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     0      0      0      0      
+3090        0      0      0      0      0      0      0      0      0      0      
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    0      0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1246
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 108   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 3   GPR6: 3130   GPR7: 3132
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = -1, PID = 1, State = 1, Reason for Waiting = 0, PC = 20, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 34   GPR3: 3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3086
+
+
+*CPU HAS BEGUN OPERATING*
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   20     -3     -1     0      0      3100   3009   23     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    0      0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1446
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:0
+
+Interrupt that was entered: 0
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7025, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 108   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 3   GPR6: 3130   GPR7: 3132
+
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7000, PID = 1, State = 1, Reason for Waiting = 0, PC = 23, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 20   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3100
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   20     -3     -1     0      0      3100   3009   23     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    0      0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1446
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7000, PID = 1, State = 1, Reason for Waiting = 0, PC = 23, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 20   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3100
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = -1, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 108   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 3   GPR6: 3130   GPR7: 3132
+
+
+*CPU HAS BEGUN OPERATING*
+
+Input operation required, leaving CPU for input interrupt.
+
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      108    10     0      0      2      3130   3133   3119   63     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1455
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+INPUT INTERRUPT DETECTED, please enter interrupt for PID: 
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:3
+
+Interrupt that was entered: 3
+ISR designed for input completion has begun running, please specify the PID of the process that the input is being completed for: 
+Please enter a character to store: 
+The character l was successfully INPUTTED.
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7050, PID = 1, State = 1, Reason for Waiting = 0, PC = 23, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 20   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3100
+
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 108   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 2   GPR6: 3130   GPR7: 3133
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      108    10     0      0      2      3130   3133   3119   63     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        0      0      0      0      0      0      0      0      0      0      
+3110        0      0      0      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1455
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 108   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 2   GPR6: 3130   GPR7: 3133
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = -1, PID = 1, State = 1, Reason for Waiting = 0, PC = 23, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 20   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3100
+
+
+*CPU HAS BEGUN OPERATING*
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   7      -3     -1     0      0      3113   3009   20     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1660
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:0
+
+Interrupt that was entered: 0
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7025, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 108   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 2   GPR6: 3130   GPR7: 3133
+
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7000, PID = 1, State = 1, Reason for Waiting = 0, PC = 20, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 7   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3113
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   7      -3     -1     0      0      3113   3009   20     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    0      0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1660
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7000, PID = 1, State = 1, Reason for Waiting = 0, PC = 20, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 7   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3113
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = -1, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 108   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 2   GPR6: 3130   GPR7: 3133
+
+
+*CPU HAS BEGUN OPERATING*
+
+Input operation required, leaving CPU for input interrupt.
+
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      108    10     0      0      1      3130   3134   3119   63     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    108    0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1669
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+INPUT INTERRUPT DETECTED, please enter interrupt for PID: 
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:3
+
+Interrupt that was entered: 3
+ISR designed for input completion has begun running, please specify the PID of the process that the input is being completed for: 
+Please enter a character to store: 
+The character o was successfully INPUTTED.
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = 7050, PID = 1, State = 1, Reason for Waiting = 0, PC = 20, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 7   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3113
+
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 111   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 1   GPR6: 3130   GPR7: 3134
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      108    10     0      0      1      3130   3134   3119   63     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3      -3     3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      0      0      0      0      0      0      0      
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    108    0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1669
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 111   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 1   GPR6: 3130   GPR7: 3134
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7025: PCB address = 7025, Next PCB Ptr = -1, PID = 1, State = 1, Reason for Waiting = 0, PC = 20, SP = 3009, Priority = 128, STACK INFO: Starting Stack Address 3010, Stack Size = 10GPRs:   GPR0: 0   GPR1: 3020   GPR2: 7   GPR3: -3   GPR4: -1   GPR5: 0   GPR6: 0   GPR7: 3113
+
+
+*CPU HAS BEGUN OPERATING*Ptr is : 3020
+
+Mem_Free system call encountered. The final values of GPR0, GPR1, and GPR2 are: GPR0 = 0  GPR1 = 3020  GPR2 = 100
+CPU Halt encountered
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   100    -3     -1     0      0      3120   3009   30     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        -1     3990   0      0      0      0      0      0      0      0      
+3020        3140   100    3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      -3     3      -3     3      -3     3      -3     
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    108    0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1794
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+HALT REACHED, end of program.Ptr is : 3010
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:0
+
+Interrupt that was entered: 0
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 111   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 1   GPR6: 3130   GPR7: 3134
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3020   100    -3     -1     0      0      3120   3009   30     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        3020   10     0      0      0      0      0      0      0      0      
+3020        3140   100    3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      -3     3      -3     3      -3     3      -3     
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    108    0      0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1794
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = -1, PID = 3, State = 1, Reason for Waiting = 3, PC = 63, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 111   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 1   GPR6: 3130   GPR7: 3134
+
+
+*CPU HAS BEGUN OPERATING*
+
+Output operation required, leaving CPU for output interrupt.
+
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      72     10     0      0      5      3131   3135   3119   73     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        3020   10     0      0      0      0      0      0      0      0      
+3020        3140   100    3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      -3     3      -3     3      -3     3      -3     
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    108    111    0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1807
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+OUTPUT INTERRUPT DETECTED, please enter interrupt for PID: 
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:4
+
+Interrupt that was entered: 4
+ISR designed for output completion has begun running, please specify the PID of the process that the output is being completed for: 
+
+nOUTPUT COMPLETED, CHARACTER DISPLAYED: H
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 4, PC = 73, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 72   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 5   GPR6: 3131   GPR7: 3135
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      72     10     0      0      5      3131   3135   3119   73     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        3020   10     0      0      0      0      0      0      0      0      
+3020        3140   100    3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      -3     3      -3     3      -3     3      -3     
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    108    111    0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1807
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = -1, PID = 3, State = 1, Reason for Waiting = 4, PC = 73, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 72   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 5   GPR6: 3131   GPR7: 3135
+
+
+*CPU HAS BEGUN OPERATING*
+
+Output operation required, leaving CPU for output interrupt.
+
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      101    10     0      0      4      3132   3135   3119   73     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        3020   10     0      0      0      0      0      0      0      0      
+3020        3140   100    3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      -3     3      -3     3      -3     3      -3     
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    108    111    0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1816
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+OUTPUT INTERRUPT DETECTED, please enter interrupt for PID: 
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:4
+
+Interrupt that was entered: 4
+ISR designed for output completion has begun running, please specify the PID of the process that the output is being completed for: 
+
+nOUTPUT COMPLETED, CHARACTER DISPLAYED: e
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 4, PC = 73, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 101   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 4   GPR6: 3132   GPR7: 3135
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      101    10     0      0      4      3132   3135   3119   73     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        3020   10     0      0      0      0      0      0      0      0      
+3020        3140   100    3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      -3     3      -3     3      -3     3      -3     
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    108    111    0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1816
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = -1, PID = 3, State = 1, Reason for Waiting = 4, PC = 73, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 101   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 4   GPR6: 3132   GPR7: 3135
+
+
+*CPU HAS BEGUN OPERATING*
+
+Output operation required, leaving CPU for output interrupt.
+
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      108    10     0      0      3      3133   3135   3119   73     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        3020   10     0      0      0      0      0      0      0      0      
+3020        3140   100    3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      -3     3      -3     3      -3     3      -3     
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    108    111    0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1825
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+OUTPUT INTERRUPT DETECTED, please enter interrupt for PID: 
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:4
+
+Interrupt that was entered: 4
+ISR designed for output completion has begun running, please specify the PID of the process that the output is being completed for: 
+
+nOUTPUT COMPLETED, CHARACTER DISPLAYED: l
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 4, PC = 73, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 108   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 3   GPR6: 3133   GPR7: 3135
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      108    10     0      0      3      3133   3135   3119   73     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        3020   10     0      0      0      0      0      0      0      0      
+3020        3140   100    3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      -3     3      -3     3      -3     3      -3     
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    108    111    0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1825
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = -1, PID = 3, State = 1, Reason for Waiting = 4, PC = 73, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 108   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 3   GPR6: 3133   GPR7: 3135
+
+
+*CPU HAS BEGUN OPERATING*
+
+Output operation required, leaving CPU for output interrupt.
+
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      108    10     0      0      2      3134   3135   3119   73     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        3020   10     0      0      0      0      0      0      0      0      
+3020        3140   100    3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      -3     3      -3     3      -3     3      -3     
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    108    111    0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1834
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+OUTPUT INTERRUPT DETECTED, please enter interrupt for PID: 
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:4
+
+Interrupt that was entered: 4
+ISR designed for output completion has begun running, please specify the PID of the process that the output is being completed for: 
+
+nOUTPUT COMPLETED, CHARACTER DISPLAYED: l
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 4, PC = 73, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 108   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 2   GPR6: 3134   GPR7: 3135
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      108    10     0      0      2      3134   3135   3119   73     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        3020   10     0      0      0      0      0      0      0      0      
+3020        3140   100    3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      -3     3      -3     3      -3     3      -3     
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    108    111    0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1834
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = -1, PID = 3, State = 1, Reason for Waiting = 4, PC = 73, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 108   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 2   GPR6: 3134   GPR7: 3135
+
+
+*CPU HAS BEGUN OPERATING*
+
+Output operation required, leaving CPU for output interrupt.
+
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      111    10     0      0      1      3135   3135   3119   73     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        3020   10     0      0      0      0      0      0      0      0      
+3020        3140   100    3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      -3     3      -3     3      -3     3      -3     
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    108    111    0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1843
+PSR:2
+
+Dynamic Memory Area AFTER executing program:
+OUTPUT INTERRUPT DETECTED, please enter interrupt for PID: 
+------------------------------------------------------------------------------------------------------------------------------
+Interrupt detected, what type of interrupt has occurred? Types of interrupts:
+0 – No interrupt.
+1 – Run program.
+2 – Shutdown system.
+3 – Input operation completion (io_getc).
+4 – Output operation completion (io_putc).
+
+Interrupt ID:4
+
+Interrupt that was entered: 4
+ISR designed for output completion has begun running, please specify the PID of the process that the output is being completed for: 
+
+nOUTPUT COMPLETED, CHARACTER DISPLAYED: o
+
+
+RQ: BEFORE CPU scheduling...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = 7000, PID = 3, State = 1, Reason for Waiting = 4, PC = 73, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 111   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 1   GPR6: 3135   GPR7: 3135
+
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+WQ: BEFORE CPU scheduling...
+This list is empty
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      111    10     0      0      1      3135   3135   3119   73     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        3020   10     0      0      0      0      0      0      0      0      
+3020        3140   100    3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      -3     3      -3     3      -3     3      -3     
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        72     101    108    108    111    0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1843
+PSR:2
+
+RQ: After selecting process from RQ...
+Contents of the PCB in memory address 7000: PCB address = 7000, Next PCB Ptr = -1, PID = 0, State = 1, Reason for Waiting = 0, PC = 0, SP = 2999, Priority = 0, STACK INFO: Starting Stack Address 3000, Stack Size = 10GPRs:   GPR0: 0   GPR1: 0   GPR2: 0   GPR3: 0   GPR4: 0   GPR5: 0   GPR6: 0   GPR7: 0
+
+
+Dumping the PCB contents of the RUNNING PCB...
+Contents of the PCB in memory address 7050: PCB address = 7050, Next PCB Ptr = -1, PID = 3, State = 1, Reason for Waiting = 4, PC = 73, SP = 3119, Priority = 128, STACK INFO: Starting Stack Address 3120, Stack Size = 10GPRs:   GPR0: 0   GPR1: 111   GPR2: 10   GPR3: 0   GPR4: 0   GPR5: 1   GPR6: 3135   GPR7: 3135
+
+
+*CPU HAS BEGUN OPERATING*Ptr is : 3130
+
+Mem_Free system call encountered. The final values of GPR0, GPR1, and GPR2 are: GPR0 = 0  GPR1 = 3130  GPR2 = 10
+CPU Halt encountered
+*CPU HAS FINISHED OPERATING*
+GPR's:      G0     G1     G2     G3     G4     G5     G6     G7     SP     PC     
+            0      3130   10     0      0      0      3130   3135   3119   83     
+
+Address:    +0     +1     +2     +3     +4     +5     +6     +7     +8     +9     
+3000        -1     4000   0      0      0      0      0      0      0      0      
+3010        3020   10     0      0      0      0      0      0      0      0      
+3020        3140   100    3      -3     3      -3     3      -3     3      -3     
+3030        3      -3     3      -3     3      -3     3      -3     3      -3     
+3040        3      -3     3      -3     3      -3     3      -3     3      -3     
+3050        3      -3     3      -3     3      -3     3      -3     3      -3     
+3060        3      -3     3      -3     3      -3     3      -3     3      -3     
+3070        3      -3     3      -3     3      -3     3      -3     3      -3     
+3080        3      -3     3      -3     3      -3     3      -3     3      -3     
+3090        3      -3     3      -3     3      -3     3      -3     3      -3     
+3100        3      -3     3      -3     3      -3     3      -3     3      -3     
+3110        3      -3     3      -3     3      -3     3      -3     3      -3     
+3120        -1     10     7003   7004   0      0      0      0      0      0      
+3130        3010   10     108    108    111    0      0      0      0      0      
+3140        -1     3860   0      0      0      0      0      0      0      0      
+3150        0      0      0      0      0      0      0      0      0      0      
+3160        0      0      0      0      0      0      0      0      0      0      
+3170        0      0      0      0      0      0      0      0      0      0      
+3180        0      0      0      0      0      0      0      0      0      0      
+3190        0      0      0      0      0      0      0      0      0      0      
+3200        0      0      0      0      0      0      0      0      0      0      
+3210        0      0      0      0      0      0      0      0      0      0      
+3220        0      0      0      0      0      0      0      0      0      0      
+3230        0      0      0      0      0      0      0      0      0      0      
+3240        0      0      0      0      0      0      0      0      0      0      
+Clock:1879
+PSR:2
